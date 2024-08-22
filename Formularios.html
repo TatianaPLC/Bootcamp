@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Tatiana Paola Lizarazo Cañon-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>FORMULARIOS</h1>
+    <hr>
+        <a href="index.html">Click aquí para regresar al inicio</a>
+    <hr>
+
+    <form action="/datos" method="get">
+        <!--CAMPO DE TIPO TEXTO-->
+        <!--El Label y el Input se asocian por el "for" y el "id", deben llamarse igual-->
+        <label for="Texto">Campo de Texto</label>
+        <input type="text" id="Texto" name="Campo de texto" placeholder="Ingrese un texto">
+        <br>
+        <br>
+        <!--CAMPO DE TIPO PASSWORD-->
+        <label for="Clave">Campo de Contraseña</label>
+        <input type="password" id="Clave" name="Campo de clave" placeholder="Ingrese su contraseña">
+        <br>
+        <br>
+        <!--CAMPO DE TIPO EMAIL-->
+        <label for="Email">Campo de Email</label>
+        <input type="email" id="Email" name="Campo de email" placeholder="Ingrese un correo">
+        <br>
+        <br>
+        <!--CAMPO DE TIPO TELÉFONO-->
+        <label for="Telefono">Campo de Teléfono</label>
+        <input type="tel" id="Telefono" name="Campo de Telefono" placeholder="Ingrese un teléfono" minlength="1" maxlength="10">
+        <br>
+        <br>
+        <!--CAMPO DE TIPO URL-->
+        <label for="URL">Campo de URL</label>
+        <input type="url" id="URL" name="Campo de URL" placeholder="Ingrese la URL">
+        <br>
+        <br>
+        <!-- CAMPO DE TIPO NUMBER -->
+        <label for="numero">Campo de número</label>
+        <input type="number" id="numero" name="Campo de numero" placeholder="Ingrese el número">
+        <br>
+        <br>
+        <!-- CAMPO DE TIPO RANGO -->
+        <label for="Rango">Campo de rango</label>
+        <input type="range" id="Rango" name="Campo de rango">
+        <br>
+        <br>
+        <!-- CAMPO DE TIPO FECHA -->
+        <label for="Fecha">Campo de fecha</label>
+        <input type="date" id="Fecha" name="Campo de fecha">
+        <br>
+        <br>
+        <!-- CAMPO DE TIPO TIME (HORA) -->
+        <label for="Hora">Campo de Hora</label>
+        <input type="time" id="Hora" name="Campo de Hora">
+        <br>
+        <br>
+        <!-- CAMPO DE TIPO DATETIME (HORA Y FECHA) -->
+        <label for="HoraFecha">Campo de hora y fecha</label>
+        <input type="datetime-local" id="HoraFecha" name="Campo de hora y fecha">
+        <br>
+        <br>
+        <!-- CAMPO DE TIPO MES -->
+        <label for="Mes">Campo de mes</label>
+        <input type="month" id="Mes" name="Campo de mes">
+        <br>
+        <br>
+        <!-- CAMPO DE TIPO SEMANA -->
+        <label for="Semana">Campo de semana</label>
+        <input type="week" id="Semana" name="Campo de semana">
+        <br>
+        <br>
+        <!-- CAMPO DE TIPO COLOR-->
+        <label for="Colores">Campo de colores</label>
+        <input type="color" id="Colores" name="Campo de colores">
+        <br>
+        <br>
+        <!-- CAMPO DE TIPO CHECKBOX - SELECCIÓN-->
+        <label for="Seleccion">Campo de selección</label>
+        <input type="checkbox" id="Seleccion" name="Campo de seleccion">
+        <br>
+        <br>
+        <!-- CAMPO DE TIPO ARCHIVO-->
+        <label for="Archivo">Campo de archivo</label>
+        <input type="file" id="Archivo" name="Campo de archivo">
+        <br>
+        <br>
+
+    </form>
+
+</body>
+</html>
