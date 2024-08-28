@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Tatiana Paola Lizarazo Cañon-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilos en CSS</title>
+    <link rel="stylesheet" href="/Estilos/Styles2.css">
+</head>
+<body>
+    <header id="Header">
+        <h1>Estilos con CSS</h1>
+        <hr>
+        <a href="#Estilos de Texto">Click para ir a Estilos de Texto</a><br>
+        <a href="#Estilos de Imagen">Click para ir a Estilos de Imagen</a>
+        <hr>
+    </header>
+    <section>
+        <article id="Article1">
+            <fieldset id="Estilos de Texto">
+                <table class="Tabla" border="2">
+                    <caption class="Caption">Estilos de Texto</caption><br>
+                    <thead>
+                        <tr>
+                            <th>Descripción</th>
+                            <th>Propiedad</th>
+                            <th>Atributo</th>
+                            <th>¿Cómo se veria?</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Esta propiedad permite cambiar la fuente del texto.</td>
+                            <td>font-family</td>
+                            <td>Nombre de la fuente deseada. Ej: verdana</td>
+                            <td id="fontfamily">Fuente de texto con verdana</td>
+                        </tr>
+                        <tr>
+                            <td>Esta propiedad permite cambiar el color del texto.</td>
+                            <td>color</td>
+                            <td>Color de la fuente deseado. Ej: blue</td>
+                            <td id="color">color azul del texto</td>
+                        </tr>
+                        <tr>
+                            <td>Esta propiedad permite cambiar el tamaño del texto.</td>
+                            <td>font-size</td>
+                            <td>Tamaño deseado en px. Ej: 20px</td>
+                            <td id="fontsize">Tamaño de letra 20px</td>
+                        </tr>
+                        <tr>
+                            <td>Esta propiedad permite cambiar el grosor de la fuente (negrita).</td>
+                            <td>font-weight</td>
+                            <td>Grosor deseado del texto. Ej: bold</td>
+                            <td id="fontweight">Texto en negrita</td>
+                        </tr>
+                        <tr>
+                            <td>Esta propiedad permite definir si el texto estará en cursiva</td>
+                            <td>font-style</td>
+                            <td>italic para letra en Cursiva. Ej: italic</td>
+                            <td id="fontstyle">Texto en cursiva</td>
+                        </tr>
+                        <tr>
+                            <td>Esta propiedad permite alinear el texto</td>
+                            <td>text-align</td>
+                            <td>center para centrar, right para alinear a la derecha, left para alinear a la izquierda. Ej: center</td>
+                            <td id="textalign">Texto a la derecha</td>
+                        </tr>
+                        <tr>
+                            <td>Esta propiedad permite agregar subrayado o tachado al texto</td>
+                            <td>text-decoration</td>
+                            <td>underline para subrayar o line-through para tachar el texto. Ej: underline</td>
+                            <td id="textdecoration">Texto subrayado</td>
+                        </tr>
+                        <tr>
+                            <td>Esta propiedad permite agregar una sombra al texto</td>
+                            <td>text-shadow</td>
+                            <td>grosor en pixeles de la sombra del texto y el color de la sombra. Ej: 2px 2px 5px brown</td>
+                            <td id="textshadow">Texto con sombra</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+        </article>
+        <article id="Article2">
+            <fieldset id="Estilos de Imagen">
+                <table class="Tabla" border="2">
+                    <caption class="Caption">Estilos de Imagen</caption>
+                    <thead>
+                        <tr>
+                            <th>Descripción</th>
+                            <th>Propiedad</th>
+                            <th>Atributo</th>
+                            <th>¿Cómo se veria?</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td id="alinear">Esta propiedad permite agregar un borde a la imagen</td>
+                            <td>border</td>
+                            <td>Borde en pixeles. Ej: 2px solid brown</td>
+                            <td ><img id="border" src="https://acortar.link/VMbgru" alt="Caballos"></td>
+                        </tr>
+                        <tr>
+                            <td>Esta propiedad permite agregar un borde redondeado o circular a la imagen agregandole el overflow permite que no se visualicen las esquinas</td>
+                            <td>border-radius con overflow</td>
+                            <td>Porcentaje del borde y overflow con hidden para ocultar los bordes. Ej: 50%, hidden</td>
+                            <td><img id="borderadius" src="https://acortar.link/VMbgru" alt="Caballos"></td>
+                        </tr>
+                        <tr>
+                            <td>Esta propiedad agrega una sombra a la imagen.</td>
+                            <td>box-shadow</td>
+                            <td>Valor en pixeles del grosor de la sombra, y el color de la sombra. Ej: 5px 5px 15px brown</td>
+                            <td><img id="boxshadow" src="https://acortar.link/VMbgru" alt="Caballos"></td>
+                        </tr>
+                        <tr>
+                            <td>Esta propiedad agrega filtros a la imagen.</td>
+                            <td>filter</td>
+                            <td>Tipo de filtro de la imagen. Ej: grayscale(100%)</td>
+                            <td><img id="filter" src="https://acortar.link/VMbgru" alt="Caballos"></td>
+                        </tr>
+                        <tr>
+                            <td>Esta propiedad permite rotar o inclinar una imagen.</td>
+                            <td>transform</td>
+                            <td>Tipo de rotación que se quiere dar a la imagen. Ej: rotate(45deg)</td>
+                            <td><img id="transform" src="https://acortar.link/VMbgru" alt="Caballos"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+        </article>
+    </section>
+    <footer id="footer">
+        <h1>Creado por: Tatiana Lizarazo</h1>
+    </footer>
+    
+</body>
+</html>

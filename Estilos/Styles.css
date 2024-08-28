@@ -1,0 +1,30 @@
+p {
+    color: brown;
+    font-family: century gothic;
+}
+
+h1 {
+    color: brown;
+    font-family: century gothic;
+    text-align: center;
+}
+
+#intro {
+    color: crimson;
+    font-family: century gothic;
+}
+
+#imagen1 {
+    width: 350px;
+    border-radius: 10px;
+}
+
+.clase1 {
+    color: forestgreen;
+    font-weight: bold;
+}
+
+a {
+    color: orangered;
+    font-family: century gothic;
+}

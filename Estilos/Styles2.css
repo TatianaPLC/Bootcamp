@@ -1,0 +1,96 @@
+#Header {
+    font-family: century gothic;
+    background-color: tan;
+    text-align: center;
+    color: maroon;
+}
+
+#Article1 {
+    background-color: beige;
+}
+
+.Caption {
+    font-weight: bold;
+    font-family: century gothic;
+}
+
+.Tabla {
+    font-family: century gothic;
+    text-align: inherit;
+    color: maroon;
+    margin: auto; /* Centrar la tabla */    
+}
+
+#fontfamily {
+    font-family: verdana;
+}
+
+#color {
+    color: blue;
+}
+
+#fontsize {
+    font-size: 20px;
+}
+
+#fontweight {
+    font-weight: bold;
+}
+
+#fontstyle {
+    font-style: italic;
+}
+
+#textalign {
+    text-align: right;
+}
+
+#textdecoration {
+    text-decoration: underline;
+}
+
+#textshadow {
+    text-shadow: 2px 2px 5px brown;
+}
+
+#Article2 {
+    background-color: floralwhite;
+}
+
+#border {
+    width: 100%;
+    height: auto;
+    border: 2px solid brown;
+}
+
+#borderadius {
+    width: 100%;
+    height: auto;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#boxshadow {
+    width: 100%;
+    height: auto;
+    box-shadow: 5px 5px 15px brown;
+}
+
+#filter {
+    width: 100%;
+    height: auto;
+    filter: grayscale(100%);
+}
+
+#transform {
+    width: 100%;
+    height: auto;
+    transform: rotate(45deg);
+}
+
+#footer {
+    font-family: century gothic;
+    background-color: tan;
+    text-align: center;
+    color: maroon;
+}
