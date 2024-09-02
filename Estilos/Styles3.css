@@ -1,0 +1,71 @@
+/*Estilos para el menú de navegación*/
+
+.navbar {
+    display: flex; /* Se utiliza para distribuir el contenido de manera horizontal */
+    justify-content: space-between; /* Espacio entre los elementos a lo largo del eje principal */
+    align-items: center; /* Alinea los elementos verticalmente */
+    background-color: chocolate; /* Color del fondo */
+    padding: 10px; /* Espacio entre los elementos */
+}
+
+/*Etiqueta del logo*/
+
+#Imglogo {
+    width: 60px;
+    height: 60px;
+}
+.nav-links {
+    list-style: none; /* Eliminar las viñetas de la lista */
+    display: flex; /* Se utiliza para distribuir los pixeles */
+    gap: 15px; /* Espacio entre cada enlace */
+}
+
+.nav-links li a {
+    color: white /* Color del texto de los links */;
+    text-decoration: none; /* Eliminar el subrayado de los enlaces */
+    padding: 8px 15px; /* Espacio entre los elementos 8px en el eje x y 15 en el eje y */
+}
+
+.dropdown {
+    position: relative; /* Posiciona el contenedor del dropdown para que se visualicen las opciones dentro del menú */
+}
+
+.dropdown-content {
+    display: none; /*Oculta el contenido del dropdown por defecto*/
+    position: absolute; /* Posiciona el contenedor del dropdown para que se visualicen las opciones dentro del menú */
+    background-color: chocolate; /* Color del contenido del fondo */
+    min-width: 120px; /* Ancho minimo del contenido del dropdown */
+    box-shadow: 0px 8px 16px gray;/* Sombra al rededor del dropdown para dar un efecto de profundidad */
+}
+
+.dropdown-content a {
+    padding: 12px 16px; /* Espacio interno al rededor de los enlaces */
+    text-decoration: none; /* Eliminar el subrayado de los enlaces */
+    display: block; /* Hace que los enlaces ocupen todo el ancho del contenido */
+}
+
+/*Muestra el contenido del dropdown al pasar el cursor sobre el contenido*/
+.dropdown:hover .dropdown-content{
+    display: block; /* Hace que los enlaces ocupen todo el ancho del contenido */
+}
+
+/*Estilo para los enlaces de navegación al pasar el cursor sobre ellos*/
+.nav-links li a:hover {
+    background-color: maroon; /* Hace que el color del fondo cuando se pase el cursor sea marron */
+    border-radius: 4px; /* Redondea el fondo de todos los enlaces */
+}
+
+/*Estilos para el boton de busqueda*/
+.search input::placeholder {
+    font-family: century gothic;
+    font-size: 17px;
+}
+
+.search-button {
+    font-size: 17px;
+    font-family: century gothic;
+    border: 2px solid maroon;
+    background-color: maroon;
+    color: white;
+    cursor: pointer;
+}
